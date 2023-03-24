@@ -1,5 +1,5 @@
-import React from 'react'
-import style from './style.module.css'
+import React from 'react';
+import style from './style.module.css';
 
 const index = () => {
   return (
@@ -10,18 +10,29 @@ const index = () => {
             <p>Our company values culture</p>
           </div>
           <div className={style.Description}>
-            <p>We specialize in creating visual identities for products and banner  in your company.</p>
+            <p>
+              We specialize in creating visual identities for products and
+              banner in your company.
+            </p>
           </div>
         </div>
         <div className={style.Right}>
-          <p>Be sincere</p>
-          <p>Stronger Together</p>
-          <p>Keep it simple</p>
-          <p>Take intelligent risks</p>
+          <div className={style.button}>
+            <p>Be sincere</p>
+          </div>
+          <div className={style.button}>
+            <p>Stronger Together</p>
+          </div>
+          <div className={style.button}>
+            <p>Keep it simple</p>
+          </div>
+          <div className={style.button}>
+            <p>Take intelligent risks</p>
+          </div>
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default index
+export default index;

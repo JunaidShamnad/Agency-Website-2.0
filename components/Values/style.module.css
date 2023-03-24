@@ -39,7 +39,7 @@
     justify-content: flex-end;
     align-items: center;
 }
-.Right p{
+.button p{
     width: fit-content;
     margin: 1rem;
     padding: 1.5rem 2rem;
