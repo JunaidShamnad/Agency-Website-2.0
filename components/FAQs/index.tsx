@@ -51,10 +51,12 @@ const index = () => {
                 {id===""?<button onClick={()=>{
                   setId(faq.id)
                 }}>+</button>
-                :
+                :id===faq.id?
                 <button onClick={()=>{
                   setId("")
-                }}>-</button>}
+                }}>-</button>:<button onClick={()=>{
+                  setId(faq.id)
+                }}>+</button>}
               </div>
             </div>
           );
