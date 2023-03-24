@@ -7,10 +7,10 @@ const index = () => {
       <div className={style.Values}>
         <div className={style.Left}>
           <div className={style.Title}>
-            <p>Our compnay values culture</p>
+            <p>Our company values culture</p>
           </div>
           <div className={style.Description}>
-            <p>We specialize in creating visual identies for prodcucts and banner  in your comnay.</p>
+            <p>We specialize in creating visual identities for products and banner  in your company.</p>
           </div>
         </div>
         <div className={style.Right}>

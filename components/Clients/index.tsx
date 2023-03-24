@@ -35,15 +35,7 @@ const index = () => {
       <div className={style.client}>
         <p>Clients Logo</p>
       </div>
-      <div className={style.client}>
-        <p>Clients Logo</p>
-      </div>
-      <div className={style.client}>
-        <p>Clients Logo</p>
-      </div>
-      <div className={style.client}>
-        <p>Clients Logo</p>
-      </div>
+    
     </div>
     </>
   )

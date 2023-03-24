@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './style.module.css'
-
+import arrowIcon from '../../assests/Line 23.svg'
 const index = () => {
   return (
     <>
@@ -16,7 +16,7 @@ const index = () => {
             <p>Know About Us</p>
           </div>
           <div className={style.Icon}>
-
+            <img src={arrowIcon} alt="" />
           </div>
         </div>
       </div>
