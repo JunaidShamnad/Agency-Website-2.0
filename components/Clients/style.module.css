@@ -1,0 +1,16 @@
+.Clients{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: "Montserrat",sans-serif;
+}
+.client{
+    width: 19%;
+    margin: 10px auto;
+    /* margin: 0 auto; */
+    background-color: #8C8C8C;
+    text-align: center;
+}

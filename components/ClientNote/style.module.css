@@ -1,0 +1,43 @@
+.ClientNote{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: "Montserrat",sans-serif;
+}
+.Title{
+    width: fit-content;
+    border-bottom: 3px solid #000;
+    margin: 4.9rem 0;
+}
+.Title p{
+    font-size: 9.325rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    letter-spacing: 2%;
+
+}
+.Description p{
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 168%;
+    margin-bottom: 4rem;
+}
+.Action{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+.Text p{
+    font-size: 2.5rem;
+}
+.Icon{
+    margin: 0 2rem;
+}
+.Icon img{
+    width: 45%;
+    transform: rotate(-45deg);
+}
