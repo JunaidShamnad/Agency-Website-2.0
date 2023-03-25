@@ -14,10 +14,13 @@
     "singleQuote": true
   },
   "dependencies": {
+    "@types/styled-components": "5.1.26",
     "clsx": "1.2.1",
+    "components": "0.1.0",
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "styled": "1.0.0",
     "styled-components": "6.0.0-beta.2",
     "styled-jsx": "5.1.0",
     "use-count-up": "3.0.1"
